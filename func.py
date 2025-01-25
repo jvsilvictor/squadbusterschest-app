@@ -31,7 +31,7 @@ def getNextIndex(batalha) -> int:
     return index
 
 
-def getFooter() -> str:
+def getHTMLFooter() -> str:
         footer = """
     <style>
         .footer {
@@ -53,7 +53,7 @@ def getFooter() -> str:
         return footer
 
 
-def getChestTable() -> str:
+def getHTMLChestTable() -> str:
     # URLs ou caminhos das imagens
     image_urls = [
         ["https://via.placeholder.com/100", "https://via.placeholder.com/100"],

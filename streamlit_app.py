@@ -28,6 +28,6 @@ def main():
 
 
     # Footer
-    st.markdown(f.getFooter(), unsafe_allow_html=True)
+    st.markdown(f.getHTMLFooter(), unsafe_allow_html=True)
 if __name__ == "__main__":
     main()
